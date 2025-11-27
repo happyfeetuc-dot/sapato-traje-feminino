@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HappyFeet</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YWP7HDY6B6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5WYB6RS00M');
+</script>
+<style>
+  body { 
+    font-family: 'Inter', Arial, sans-serif; 
+    padding: 0; 
+    margin: 0; 
+    background: linear-gradient(135deg, #ffffff 0%, #c3cfe2 100%); 
+    text-align: center; 
+    color: #383838;
+  }
+  .hero {
+    background: url('https://source.unsplash.com/random/1200x600/?academic-shoes') no-repeat center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(79, 70, 229, 0.8); /* Overlay escuro para texto legível */
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5.4em;
+    color: white;
+    margin: 0 0 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  .hero p {
+    font-size: 1.6em;
+    color: white;
+    margin: 0 0 30px;
+    opacity: 0.9;
+  }
+  .container { 
+    max-width:1100px;
+    margin: auto; 
+    padding: 60px 20px;
+    background: white; 
+    border-radius: 35px; 
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1); 
+    margin-top: -40px; /* Sobreposição leve com hero */
+    position: relative;
+    z-index: 1;
+  }
+  .container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6em;
+    color: #4F46E5;
+    margin-bottom: 10px;
+  }
+  .container p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+    list-style: none;
+    padding: 0;
+  }
+  .benefits li {
+    text-align: left;
+    padding: 20px;
+    background: #f4f4ff;
+    border-radius: 12px;
+    border-left: 4px solid #4F46E5;
+    transition: transform 0.2s;
+  }
+  .benefits li:hover {
+    transform: translateY(-5px);
+  }
+  .benefits li::before {
+    content: '✓';
+    color: #4F46E5;
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .cta-btn {
+    display: inline-block; 
+    padding: 15px 30px; 
+    background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%); 
+    color: white;
+    text-decoration: none; 
+    font-weight: 600; 
+    font-size: 1.1em;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+    margin: 10px;
+  }
+  .cta-btn:hover { 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(79, 70, 229, 0.6);
+    background: linear-gradient(135deg, #4338CA 0%, #6D28D9 100%);
+  }
+
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 2.5em; }
+    .hero p { font-size: 1.1em; }
+    .container h2 { font-size: 2em; }
+  }
+</style>
+</head>
+<body>
+  <section class="hero">
+  <div class="hero-content">
+    <h1>HappyFeet</h1>
+    <p>Conforto e elegância para o teu percurso académico!</p>
+    <!-- Imagem do GitHub aqui -->
+    <img src="https://raw.githubusercontent.com/Martimbranc/happyfeet/main/happyfeet.jpg" alt="Sapatos HappyFeet em uso" style="max-width: 300px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); display: block; margin: 20px auto;">
+  </div>
+</section>
+
+  <div class="container">
+    <h2>Porquê Escolher os Nossos Sapatos?</h2>
+    <p>Desenhámos os sapatos perfeitos para o teu traje académico feminino: elegantes, duradouros e tão confortáveis que te vão acompanhar com leveza em cada passo. Prepara-te — podem muito bem ser os sapatos mais confortáveis que já usaste!</p>
+
+    <ul class="benefits">
+      <li><strong>Conforto em Primeiro Lugar:</strong> Estes sapatos foram especialmente concebidos para oferecer o máximo de conforto, permitindo que a utilizadora passe horas em pé sem sentir dores.</li>
+      <li><strong>Estilo Tradicional:</strong> O conforto não precisa de quebrar a tradição. Estes sapatos preservam a verdadeira essência do traje académico, mantendo o visual clássico que tanto o caracteriza.</li>
+      <li><strong>Feito a Pensar em Si:</strong> Com materiais inovadores, como a cortiça, a HappyFeet foi criada para resolver os aspetos que tornam os sapatos desconfortáveis.</li>
+    </ul>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIc8rnuD6JFmIyzoDfI1aK5uNFtPcYXKnvVxbp52nynDIfpA/viewform?usp=dialog" target="_blank" class="cta-btn">Quero Reservar o Meu Par Agora</a></li>
+  </div>
+</body>
+</html>
