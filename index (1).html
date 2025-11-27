@@ -5,15 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>HappyFeet</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWP7HDY6B6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-5WYB6RS00M');
 </script>
+
 <style>
   body { 
     font-family: 'Inter', Arial, sans-serif; 
@@ -21,7 +22,7 @@
     margin: 0; 
     background: linear-gradient(135deg, #ffffff 0%, #c3cfe2 100%); 
     text-align: center; 
-    color: #474747;
+    color: #4e4e4e;
   }
   .hero {
     background: url('https://source.unsplash.com/random/1200x600/?academic-shoes') no-repeat center/cover;
@@ -35,7 +36,7 @@
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgb(79, 70, 229); /* Overlay escuro para texto legível */
+    background: rgba(66, 63, 63, 0.4);
   }
   .hero-content {
     position: relative;
@@ -63,7 +64,7 @@
     background: white; 
     border-radius: 35px; 
     box-shadow: 0 8px 32px rgba(0,0,0,0.1); 
-    margin-top: -40px; /* Sobreposição leve com hero */
+    margin-top: -40px;
     position: relative;
     z-index: 1;
   }
@@ -123,7 +124,6 @@
     box-shadow: 0 6px 20px rgba(79, 70, 229, 0.6);
     background: linear-gradient(135deg, #4338CA 0%, #6D28D9 100%);
   }
-
   @media (max-width: 768px) {
     .hero h1 { font-size: 2.5em; }
     .hero p { font-size: 1.1em; }
@@ -131,7 +131,9 @@
   }
 </style>
 </head>
+
 <body>
+
   <section class="hero">
     <div class="hero-content">
       <h1>HappyFeet</h1>
